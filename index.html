@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Memória JS</title>
+    <link rel="shortcut icon" href="src/images/jogo-da-memoria.png" type="image/x-icon">
+    <meta http-equiv="Cache-Control" content="max-age=604800">
+
+    <!-- SEO -->
+    <meta name="author" content="João Dev">
+    <meta name="description" content="Jogo da Memória com javascript - Encontre os pares de cartas!">
+    <meta name="keywords" content="jogo, jogo da memória, jogo da memória js, jogo da memória javascript, jogo da memória com javascript">
+    <meta name="robots" content="index, follow">
+
+    <!-- protocolo Open Graph -->
+    <meta property="og:title" content="Jogo da Memória com javascript">
+    <meta property="og:description" content="Jogo da Memória com javascript - Encontre os pares de cartas!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="src/images/ralph.png">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9f10f7f884.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="container">
+        <h2>JOGO DA MEMÓRIA</h2>
+        <p class="timer"><i class="fa-regular fa-clock"></i> 02:00</p>
+        <div class="game"></div>
+    </main>
+
+    <footer>
+        <hr>
+        <a href="https://www.linkedin.com/in/joaosouza-dev/" target="_blank">linkedin</a>
+        <a href="https://github.com/Dev-JoaoSouza/" target="_blank">github</a>
+        <p>João Dev 2024-2025</p>
+    </footer>
+
+    <div class="game-screen">
+        <h2>😎 Jogo da Memória com Emojis 😎</h2>
+        <p>🤩 Encontre os pares de cartas! 🤩</p>
+        <div>
+            <button onclick="startGame1()">Start emojis animais 🐵</button>
+            <button onclick="startGame2()">Start emojis carrinhas 🙂</button>
+        </div>
+    </div>
+
+    <script src="src/scripts/engine.js" defer></script>
+</body>
+</html>
